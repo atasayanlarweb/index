@@ -14,8 +14,10 @@ nav{
     z-index: 999;
 }
 .nav-container{
-    max-width: 1500px;
+    max-width: 100%;
     margin: auto;
+    background: #fff;
+    box-shadow: 0 0 15px #00000020;
 }
 .menu-btn{
     display: none;
@@ -32,12 +34,12 @@ nav{
 .nav-segment{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    max-width: 1250px;
+    margin: auto;
     align-items: center;
-    background: #fff;
-    box-shadow: 0 0 15px #00000020;
+    
     border-radius: 0 0 15px 15px;
-    padding: 20px;
+    padding: 20px 0;
 }
 .nav-logo{
     transition: .3s ease all;
@@ -50,9 +52,13 @@ nav{
     align-items: center;
     justify-content: space-between;
    
-    padding: 0 25px;
+    
     font-size: 14px;
     
+}
+.nav-link{
+    display: flex;
+    gap: 20px;
 }
 .nav-link a{
     color: #353535;
@@ -209,12 +215,21 @@ nav{
     width: 1600px;
     margin: 30px 0;
 }
+.container-divas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: auto;
+}
 .nav-contact-div{
+    
+    gap: 20px;
     text-align: center;
     padding: 10px;
     color: #fff;
     font-weight: 800;
-    background: #4453d8;
+    background: #000000;
 }
 .sup-overflow{
     overflow: hidden;
