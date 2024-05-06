@@ -47,7 +47,29 @@
         </div>
         <div class="overlay"></div>
     </nav>
-    
+    <div class="bannerfdfdf">
+        <div class="container">
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/slide (1).jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide (2).jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide (3).jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide (4).jpg" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
     <section>
         <div class="container">
             <div class="home-container">
@@ -69,6 +91,27 @@
         </div>
     </section>
 
+    <section>
+        <div class="container">
+            <div class="fullpage-responsive-cards">
+                <div class="card-carpet">
+                    <img src="img/slide (3).jpg" />
+                </div>
+                <div class="card-carpet">
+                <img src="img/slide (4).jpg" />
+                </div>
+                <div class="card-carpet">
+                    <img src="img/slide (5).jpg" />
+                </div>
+                <div class="card-carpet">
+                    <img src="img/slide (6).jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
     <section class="sup-overflow" style="margin: 150px 0;">
         <div class="container">
             <div class="sup-header">
@@ -82,7 +125,7 @@
             <div class="sup-box-container">
                 <div class="sup-box">
                     <div class="s-box-img">
-                        <img src="img/icon/truck.png" alt="evden eve">
+                        <img width="56" height="56" src="https://img.icons8.com/color/48/broom.png" alt="broom" />
                     </div>
                     <div class="s-box-title">
                         Hizmet Adı    
@@ -90,58 +133,26 @@
                 </div>
                 <div class="sup-box">
                     <div class="s-box-img">
-                        <img src="img/icon/box.png" alt="tekli ürün">
+                        <img width="56" height="56" src="https://img.icons8.com/color/48/broom.png" alt="broom" />
                     </div>
                     <div class="s-box-title">
-                        Hizmet Adı    
+                        Hizmet Adı
                     </div>
                 </div>
                 <div class="sup-box">
                     <div class="s-box-img">
-                        <img src="img/icon/boxes.png" alt="çoklu ürün">
+                        <img width="56" height="56" src="https://img.icons8.com/color/48/broom.png" alt="broom" />
                     </div>
                     <div class="s-box-title">
-                        Hizmet Adı    
+                        Hizmet Adı
                     </div>
                 </div>
                 <div class="sup-box">
                     <div class="s-box-img">
-                        <img src="img/icon/short.png" alt="kısa mesafeli">
+                        <img width="56" height="56" src="https://img.icons8.com/color/48/broom.png" alt="broom" />
                     </div>
                     <div class="s-box-title">
-                        Hizmet Adı    
-                    </div>
-                </div>
-                <div class="sup-box">
-                    <div class="s-box-img">
-                        <img src="img/icon/truck.png" alt="truck">
-                    </div>
-                    <div class="s-box-title">
-                        Hizmet Adı    
-                    </div>
-                </div>
-                <div class="sup-box">
-                    <div class="s-box-img">
-                        <img src="img/icon/boxes.png" alt="çoklu ürün">
-                    </div>
-                    <div class="s-box-title">
-                    Hizmet Adı
-                    </div>
-                </div>
-                <div class="sup-box">
-                    <div class="s-box-img">
-                        <img src="img/icon/short.png" alt="kısa mesafeli">
-                    </div>
-                    <div class="s-box-title">
-                        Hizmet Adı    
-                    </div>
-                </div>
-                <div class="sup-box">
-                    <div class="s-box-img">
-                        <img src="img/icon/truck.png" alt="truck">
-                    </div>
-                    <div class="s-box-title">
-                        Hizmet Adı    
+                        Hizmet Adı
                     </div>
                 </div>
                 
@@ -625,6 +636,18 @@
             prevEl: ".l1-btn",
         },
     });
+    var swiper = new Swiper(".mySwiper2", {
+            spaceBetween: 30,
+            effect: "fade",
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
 </script>
 </body>
 </html>
