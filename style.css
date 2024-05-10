@@ -255,7 +255,7 @@ tr:nth-child(even) {
     align-items: center;
     gap: 25px;
     flex-wrap: nowrap;
-    width: 1600px;
+   
     margin: 30px 0;
 }
 .container-divas{
