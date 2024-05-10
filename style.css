@@ -62,6 +62,7 @@ table {
     width: 100%;
     box-shadow: 0 0 15px #00000020;
     border-radius: 11px;
+    
 }
 th{
     position: sticky;
@@ -250,6 +251,7 @@ tr:nth-child(even) {
 .sup-box-container{
     position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 25px;
     flex-wrap: nowrap;
@@ -286,7 +288,7 @@ tr:nth-child(even) {
     border-radius: 15px;
     box-shadow: 0 0 15px #00000010;
     transition: .3s ease all;
-    height: 170px;
+    
 }
 .sup-box:hover{
     cursor: pointer;
@@ -474,7 +476,7 @@ tr:nth-child(even) {
     display: flex;
     align-items: center;
     font-weight: 600;
-    height: 70px;
+    height: 20px;
     padding: 10px 0;
 }
 .p29{
