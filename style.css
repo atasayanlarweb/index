@@ -56,6 +56,28 @@ nav{
     font-size: 14px;
     
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 15px #00000020;
+    border-radius: 11px;
+}
+th{
+    position: sticky;
+    top: 110px;
+    background: #bcd4ff;
+}
+td,
+th {
+    
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #e2ecff;
+}
 .fullpage-responsive-cards{
     display: flex;
     justify-content: center;
