@@ -837,8 +837,11 @@ tr:nth-child(even) {
     bottom: 0;
     width: 400px;
     padding: 15px;
-    color: #fff;
-    background: linear-gradient(10deg, #5f7cb6 65%, #5f7cb6 65%);
+    color: #000;
+    background: linear-gradient(10deg, #fff 65%, #fff 65%);
+    border: 1px solid #5f7cb6;
+    border-radius: 11px;
+    box-shadow: 0 0 15px #00000020;
 }
 
 .timeline ul li div::before {
@@ -871,10 +874,9 @@ tr:nth-child(even) {
 }
 
 time {
-    display: block;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 
