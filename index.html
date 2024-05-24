@@ -9,66 +9,143 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e2bce648c2.js" crossorigin="hurphygames"></script>
 </head>
 <body>
-    <div class="nav-contact-div">
-        <div class="container-divas">
-            <div class="nav-inf">
-                <i class="fa-solid fa-location-dot"></i> Adres bilgileri
+    <div class="nav-top">
+        <div class="nav-title">
+            <div class="logo-title"><img src="img/logo.png" alt="logo"></div>
+        </div>
+        <div class="nav-support">
+            <div class="sp-title">Hızlı Acil Yardım</div>
+            <div class="sp-alt">
+                <span style="color: #49aecf; font-weight: 600; font-size: 18px;">0 856 (565) 65 56</span>
             </div>
-            <div class="phone-idf">
-                <i class="fa-solid fa-phone"></i> 0 212 00 00
+        </div>
+        <div class="nav-support flex-top-nbav">
+            <div class="loc-dot">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="today-a">
+                <div class="sp-title">Adres bilgileri örnek yeri</div>
+                <div class="sp-alt">
+    
+                    Türkiye 8007 Antalya
+                </div>
+            </div>
+        </div>
+        <div class="nav-support flex-top-nbav">
+            <div class="loc-dot">
+                <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="today-a">
+                <div class="sp-title">Pazartesi - Cumartesi - 8:00 - 18:00</div>
+                <div class="sp-alt">
+    
+                    Pazar - 8:00 - 14:00
+                </div>
             </div>
         </div>
     </div>
     <nav>
-        
         <div class="nav-container">
-            
-            <div class="nav-segment">
-                <div class="nav-logo"><a href="index.html"><img width="250px" src="img/logo.png" alt="logo"></a></div>
-                <div class="nav-links">
-                    <div class="nav-logo-m"><a href="index.html"><img width="150px" src="img/logo.png" alt="logo"></a></div>
-                    <div class="nav-link">
-                        <a href="index.html"><i class="fa-solid fa-house"></i> Anasayfa</a>
-                        <a href="#"><i class="fa-solid fa-layer-group"></i> Hizmetlerimiz</a>
-                        <a href="fiyatlistesi.html"><i class="fa-solid fa-tags"></i> Fiyat Listesi</a>
-                        <a href="#"><i class="fa-solid fa-circle-info"></i> Hakkımızda</a>
-                        <a href="#"><i class="fa-solid fa-phone"></i> İletişim</a>
+    
+            <div class="nav-title display-middle-none">
+                <div class="logo-title"><img src="img/logo.png" alt="logo"></div>
+            </div>
+            <div class="nav-link-container">
+                <div class="nav-links nav-link-settings">
+                    <div class="nav-menu-header">
+                        <div class="profile-img">
+                            <img src="img/logo.png" alt="logo">
+                        </div>
+    
                     </div>
-                    
+                    <div id="nth" class="nav-links-effect-container">
+    
+                        <a href="index.html" class="nav-link active">
+                            <div class="link-anim-set">
+                                <div class="link-anim-set-p p1">
+                                    <div class="link-numbers">01</div>Ana Sayfa
+                                </div>
+                            </div>
+                        </a>
+                        <a href="fiyatlistesi.html" class="nav-link">
+                            <div class="link-anim-set">
+                                <div class="link-anim-set-p p2">
+                                    <div class="link-numbers">02</div>Fiyat Listesi
+                                </div>
+                            </div>
+                        </a>
+                        <div class="nav-link dropdowns z2">
+                            <div>
+                                <div class="link-anim-set-p p3 alignr">
+                                    <div class="link-numbers">03</div>Hizmetlerimiz <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                                <div class="dropdown-m">
+                                    <a href="#">Halı Yıkama</a>
+                                    <a href="#">Koltuk Yıkama</a>
+                                    <a href="#">Perde Yıkama</a>
+                                    <a href="#">Overlok</a>
+
+    
+                                </div>
+                            </div>
+                        </div>
+                        <a href="choices.html" class="nav-link">
+                            <div class="link-anim-set">
+                                <div class="link-anim-set-p p4">
+                                    <div class="link-numbers">04</div>Hakkımızda
+                                </div>
+                            </div>
+                        </a>
+    
+                        <a href="about.html" class="nav-link">
+                            <div class="link-anim-set">
+                                <div class="link-anim-set-p p6">
+                                    <div class="link-numbers">06</div>İletişim
+                                </div>
+                            </div>
+                        </a>
+    
+    
+    
+    
+    
+                    </div>
+    
+    
+    
                 </div>
-                <div class="menu-btn">
-                   <i class="fa-solid fa-bars"></i>
-                </div>
+                <button class="menu-btn"><i class="fa-solid fa-bars-staggered"></i></button>
             </div>
         </div>
-        <div class="overlay"></div>
     </nav>
-    <div class="bannerfdfdf">
-        <div class="container">
-            <div class="swiper mySwiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/slide (1).jpg" />
+
+    
+    
+    <div>
+    
+        <div class="banner">
+            <div class="container banner-settings">
+                <div class="banner-text-container">
+                    <div class="banner-text">
+                        Atasayanlar aracılığı ile<br>
+                        En iyisini seçin kendinize<br>
+                        değer verin
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/slide (2).jpg" />
+                    <div class="banner-alt-text">
+                        Hızlıca randevu almak için butona tıklayın
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/slide (3).jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/slide (4).jpg" />
+                    <div class="banner-button">
+                        <a href="#">Randevu Al <i class="fa-solid fa-circle-chevron-right"></i></a>
                     </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
             </div>
         </div>
+    
     </div>
     <section>
         <div class="container">
@@ -623,92 +700,31 @@
     </section>
 
     
-
-
-    <section style="margin-top: 100px;">
-        <div class="container">
-            <div class="happy-customer-container footer-phone-bg">
-                
-                <div class="footer-phone-text">
-                    <div class="f-phone-text-header">
-                       Atasayanlar Halı Yıkama
-                    </div>
-                    <div class="f-phone-alt">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quam!
-                    </div>
-                    
-                </div>
-                <div class="footer-phone-img">
-                    
-                </div>
-    
-            </div>
+    <section class="text-gray-600 body-font relative">
+        <div class="absolute inset-0 bg-gray-300">
+            <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no"
+                src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+                style="filter:  contrast(1.2) opacity(0.4);"></iframe>
         </div>
-    </section>
-
-    <section style="margin-top: 50px; margin-bottom: 50px">
-        <div class="container">
-            <div class="footer-container-width">
-                <div class="footer-container">
-                    <div class="footer-section">
-                        <div class="footer-box">
-                            <div class="f-box-text">
-                                Hayatını kolaylaştır
-                            </div>
-                            <div class="f-box-text-alt">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique
-                            </div>
-                            <div class="f-box-btn or-f">
-                                <a href="#">İletişim</a>
-                            </div>
-                        </div>
-                        <div class="footer-box">
-                            <div class="f-box-text">
-                                Zaman Kaybetme
-                            </div>
-                            <div class="f-box-text-alt">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique
-                            </div>
-                            <div class="f-box-btn bl-f">
-                                <a href="#">İletişim</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="border-line"></div>
-                    <div style="padding: 50px 0;" class="footer-links-container">
-                        <div class="footer-logo">
-                            <a href="#"><img width="250px" src="img/logo-f.png" alt="logo"></a>
-                        </div>
-                        <div class="footer-links">
-                            <a href="#">Anasayfa</a>
-                            <a href="#">Hakkımızda</a>
-                            <a href="#">Hizmetler</a>
-                            <a href="#">Fiyat Listesi</a>
-                            <a href="#">İletişim</a>
-                        </div>
-                        <div class="footer-links-social">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                
-                        </div>
-                    </div>
-                    <div class="border-line"></div>
-                    <div style="color: #8C9491 !important;" class="footer-links-container">
-                       <div class="footer-links">
-                        © 2011 - 2024  Teknoloji AŞ, Tüm Hakları Saklıdır
-                       </div>
-                        <div class="footer-links footer-kvk">
-                            <a href="#">Gizlilik Sözleşmesi</a>
-                            <a href="#">KVKK</a>
-                            <a href="#">Kullanıcı Sözleşmesi</a>
-                            <a href="#">Çağrı Merkezi Aydınlatma Metni</a>
-                         
-                        </div>
-                      
-                    </div>
+        <div class="container px-5 py-24 mx-auto flex" style="margin-top: 50px !important;">
+            <div
+                class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Geri Bildirim</h2>
+                <p class="leading-relaxed mb-5 text-gray-600">Bizimle iletişime geçmekten çekinmeyin
+                </p>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-600">E-Posta</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
+                <div class="relative mb-4">
+                    <label for="message" class="leading-7 text-sm text-gray-600">Mesajınız</label>
+                    <textarea id="message" name="message"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button
+                    class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
+                <p class="text-xs text-gray-500 mt-3">Tüm haklarınız saklıdır.</p>
             </div>
         </div>
     </section>
