@@ -144,7 +144,7 @@ tr:nth-child(even) {
     max-width: 550px;
 }
 .home-text-alt{
-    max-width: 500px;
+    max-width: 800px;
     font-size: 18px;
 }
 .home-img, .home-img img{
@@ -644,6 +644,14 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
     font-size: 22px;
     text-align: center;
     font-weight: 600;
+}
+.banner-soan{
+    background: #69ff7d;
+    color: #353535;
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 50px;
 }
 .newSwiper .box-f-img img{
     display: none;
