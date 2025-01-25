@@ -2889,3 +2889,34 @@ section .container {
     max-width: 1250px;
     margin:70px auto;
 }
+
+
+
+.placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 300px;
+    color: #999;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #00000020;
+    font-size: 18px;
+}
+.placeholder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.banner-text span{
+    padding: 10px;
+    background: #34369299;
+    border-radius: 5px;
+}
