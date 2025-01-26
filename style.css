@@ -639,11 +639,39 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
 .container h2{
     padding: 15px;
     background: linear-gradient(to right, #58b6db, #5d1488, #ff8f44);
-    border: 1px solid #006EDF50;
+
     color: #fff;
     font-size: 22px;
     text-align: center;
     font-weight: 600;
+    border-radius: 5px;
+    margin: 15px 0;
+    margin-top: 50px;
+}
+.blog-sec h5 {
+    padding: 15px;
+        background: linear-gradient(to right, #58b6db, #5d1488, #ff8f44);
+    
+        color: #fff;
+        font-size: 22px;
+        text-align: center;
+        font-weight: 600;
+        border-radius: 5px;
+        margin: 15px 0;
+        margin-top: 50px;
+}
+
+.blog-sec .placeholder{
+    display: flex;
+    align-items: center;
+   border: 1px solid #ccc;
+   background: linear-gradient(to top, #5d148850, #ff8f4450);
+   margin: auto;
+}
+.blog-sec .placeholder img{
+    height: 350px;
+        max-width: 500px;
+   margin: auto;
 }
 .banner-soan{
     background: #69ff7d;
@@ -1310,26 +1338,26 @@ i {
     text-align: center;
     margin-right: 25px;
     text-decoration: none;
-    padding: 15px 0;
+    padding: 15px 0 !important;
     font-size: 14px;
     z-index: 1;
     transition: .3s ease all;
-    border-bottom: 4px solid transparent;
+    border-bottom: 4px solid transparent !important;
 }
 
 .nav-link a {
-    border-bottom: 4px solid transparent;
+    border-bottom: 4px solid transparent !important;
 }
 
 .nav-link.active,
 .active-n {
     color: #fff;
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #fff !important;
 }
 
 .nav-link a:hover,
 .nav-link:hover {
-
+    color: #fff;
     border-bottom: 4px solid #fff;
 }
 
@@ -2806,6 +2834,13 @@ section .container {
     .nav-link {
         width: 200px;
     }
+}
+.blog-sec ul li{
+    padding: 12px;
+    margin: 12px 0;
+    background: linear-gradient(to right, #006EDF10, transparent);
+    border-left: 5px solid #006EDF50;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 300px) {
