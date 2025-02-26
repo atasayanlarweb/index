@@ -27,7 +27,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     box-shadow: 0 0 15px #00000020;
-    border-radius: 11px;
+    
     
 }
 .cta-sectionnew{
@@ -38,7 +38,7 @@ table {
     flex-direction: column;
     gap: 20px;
     background: url(https://images.unsplash.com/photo-1653628989912-a80b471c8388?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    border-radius: 15px;
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -74,7 +74,7 @@ table {
     padding: 15px 35px;
     
     color: #fff;
-    border-radius: 50px;
+    
 }
 th{
     background: #bcd4ff;
@@ -99,7 +99,7 @@ tr:nth-child(even) {
 .card-carpet{
     width: 300px;
     height: 350px;
-    border-radius: 5px;
+    
     overflow: hidden;
     box-shadow: 0 0 15px #00000030;
 }
@@ -152,7 +152,7 @@ tr:nth-child(even) {
 }
 .home-img img{
     box-shadow: -40px 24px 0px #00000007;
-    border-radius: 20px;
+    
 }
 .search-category-container{
     position: absolute;
@@ -161,7 +161,7 @@ tr:nth-child(even) {
     backdrop-filter: blur(5px);
     width: 950px;
     box-shadow: 0 0 15px #00000010;
-    border-radius: 15px;
+    
 }
 .nav-lang-op a{
     display: flex;
@@ -184,7 +184,7 @@ tr:nth-child(even) {
     border: 1px solid #E5E5EA;
     outline: none;
     transition: .3s ease all;
-    border-radius: 8px;
+    
 }
 .category-contianer form input::placeholder {
     font-style: italic;
@@ -200,7 +200,7 @@ tr:nth-child(even) {
     text-align: center;
     width: 120px;
     padding: 10px;
-    border-radius: 6px;
+    
     border: none;
     outline: none;
     cursor: pointer;
@@ -221,9 +221,10 @@ tr:nth-child(even) {
     text-align: center;
     max-width: 100%;
     margin: auto;
-    border-radius: 15px;
-    background: #43b4ff10;
-    border: 1px solid #006EDF50;
+    border: 1px solid #35353550;
+    background: #35353512;
+    
+    
     padding:20px 10px;
 }
 .nav-logo-m{
@@ -269,9 +270,9 @@ tr:nth-child(even) {
     justify-content: start;
     flex-direction: column;
     background: #fff;
-    width: 140px;
-    padding: 15px;
-    border-radius: 15px;
+    width: 100%;
+    padding: 5px;
+    
     box-shadow: 0 0 15px #00000010;
     transition: .3s ease all;
     
@@ -280,16 +281,20 @@ tr:nth-child(even) {
     cursor: pointer;
     box-shadow: 0 0 25px #00000020;
 }
-
+.s-box-img img{
+    height: 200px;
+    object-fit: cover;
+}
 .s-box-title{
     text-align: center;
+    padding: 10px;
 }
 .primary-btn-st{
     background: #306FDF;
     color: #fff;
     text-decoration: none;
     padding: 15px 35px;
-    border-radius: 8px;
+    
     transition: .3s ease all;
 }
 .primary-btn-st:hover {
@@ -324,7 +329,7 @@ tr:nth-child(even) {
     color: #fff;
     text-decoration: none;
     padding: 15px 35px;
-    border-radius: 8px;
+    
     transition: .3s ease all;
 }
 .primary-btn i{
@@ -347,7 +352,7 @@ tr:nth-child(even) {
     padding: 8px 20px;
     color: #383E42;
     box-shadow: 0 0 15px #00000010;
-    border-radius: 8px;
+    
     text-decoration: none;
     border: 1px solid #EFEFEF;
     transition: .3s ease all;
@@ -365,7 +370,7 @@ tr:nth-child(even) {
     background: #fff;
     width: 31%;
     padding: 10px;
-    border-radius: 20px;
+    
     box-shadow: 0 0 15px #00000020;
     text-decoration: none;
     color: #242422;
@@ -389,7 +394,7 @@ tr:nth-child(even) {
 }
 .s-card-img img{
     width: 100px;
-    border-radius: 20px;
+    
 }
 .s-card-title{
     font-weight: 600;
@@ -415,7 +420,7 @@ tr:nth-child(even) {
     padding: 5px 10px;
     background: #d5eaff;
     color: #1666ef;
-    border-radius: 10px;
+    
 }
 .s-card-container{
     position: relative;
@@ -455,7 +460,7 @@ tr:nth-child(even) {
     width: 48%;
     padding: 20px;
     box-shadow: 0 0 15px #00000010;
-    border-radius: 14px;
+    
    
 }
 .box-f-title{
@@ -489,7 +494,7 @@ tr:nth-child(even) {
     width: 50px;
     height: 50px;
     background: #FF9A00;
-    border-radius: 15px;
+    
 }
 .sy-box-container{
     display: flex;
@@ -508,7 +513,8 @@ tr:nth-child(even) {
     justify-content: center;
     padding-top: 50px;
     height: 500px;
-    border-radius: 15px !important;
+box-shadow: 0 0 15px #00000030;
+border: 1px solid #35353550;
     background: url(img/slide-1.jpg);
     background-size: cover !important;
 }
@@ -517,9 +523,14 @@ tr:nth-child(even) {
     justify-content: center;
     padding-top: 50px;
     height: 400px;
-    border-radius: 15px !important;
+
     background: url(img/footer-phone-bg.png);
     background-size: cover !important;
+}
+.hero-fiyat{
+    background: #35353510;
+    border: 1px solid #35353550;
+    padding: 15px;
 }
 .h-text-header{
     font-size: 26px;
@@ -533,7 +544,7 @@ tr:nth-child(even) {
     color: #383E42;
     margin-top: 50px;
     padding: 20px;
-    border-radius: 10px 10px 0 10px;
+    
 }
 
 .h-customer-slide{
@@ -547,7 +558,7 @@ tr:nth-child(even) {
     gap: 13px;
     padding: 15px;
     padding-top: 50px;
-    border-radius: 10px;
+    
     text-align: center;
 }
 
@@ -561,14 +572,14 @@ tr:nth-child(even) {
     height: 100px;
     padding: 4px;
     box-shadow: 0 0 15px #00000010;
-    border-radius: 50%;
+    
     overflow: hidden;
 }
 .profile-p-slide-img img{
     width: 100%;
     object-position: center;
     object-fit: cover;
-    border-radius: 50%;
+    
 }
 .profile-slide-text{
     color: #fff;
@@ -599,7 +610,7 @@ tr:nth-child(even) {
     font-size: 24px;
     cursor: pointer;
     width: 50px;
-    border-radius:0 0 11px 11px;
+   
     height: 50px;
 }
 .h-buttons:nth-child(1){
@@ -615,7 +626,7 @@ tr:nth-child(even) {
     max-width: 500px;
     height: 400px;
     margin:0 15px !important;
-    border-radius: 16px;
+    
 }
 .newSwiper .box-f-p{
     font-size: 18px;
@@ -631,20 +642,20 @@ tr:nth-child(even) {
     flex-direction: column;
     height: auto;
     
-   background: linear-gradient(to right, #58b6db,#5d1488, #ff8f44);
+   background: linear-gradient(to right, #353535,#043447, #353535);
 }
 .bg-re{
-background: linear-gradient(to top, #58b6db, #1b4eda) !important;
+background: linear-gradient(to top, #353535, #000000) !important;
 }
 .container h2{
     padding: 15px;
-    background: linear-gradient(to right, #58b6db, #5d1488, #ff8f44);
+    
 
-    color: #fff;
+    color: #000;
     font-size: 22px;
-    text-align: center;
+    text-align: left;
     font-weight: 600;
-    border-radius: 5px;
+    border-left: 8px solid #103e50;
     margin: 15px 0;
     margin-top: 50px;
 }
@@ -656,7 +667,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
         font-size: 22px;
         text-align: center;
         font-weight: 600;
-        border-radius: 5px;
+        
         margin: 15px 0;
         margin-top: 50px;
 }
@@ -665,7 +676,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
     display: flex;
     align-items: center;
    border: 1px solid #ccc;
-   background: linear-gradient(to top, #5d148850, #ff8f4450);
+  
    margin: auto;
 }
 .blog-sec .placeholder img{
@@ -679,21 +690,21 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
     padding: 10px;
     font-size: 28px;
     text-align: center;
-    border-radius: 50px;
+    
 }
 .newSwiper .box-f-img img{
     display: none;
     background: #ffffff50;
     padding: 15px;
     
-    border-radius: 15px;
+    
 }
 .mySwiper3{
     display: flex;
     max-width: 500px;
     height: 400px;
     margin:0 15px !important;
-    border-radius: 16px;
+    
 }
 .swiper-slide{
     margin-top: 50px;
@@ -706,9 +717,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
 .sy-box a i{
     margin-left: 4px;
 }
-.sy-box img{
-    border-radius: 10px;
-}
+
 
 .sy-box-img{
     position: relative;
@@ -720,7 +729,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
     background: #fff;
     padding:8px 14px;
     box-shadow: 0 0 15px #00000020;
-    border-radius: 11px;
+    
 }
 
 .footer-phone-bg{
@@ -755,7 +764,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
 }
 .footer-container-width{
     background: #272F35;
-    border-radius: 15px;
+    
 }
 .footer-container{
     display: flex;
@@ -788,7 +797,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
     text-decoration: none;
     justify-content: center;
     width: 35px;
-    border-radius: 50%;
+    
     margin-left: 5px;
     height: 35px;
     border: 1px solid #ffffff37;
@@ -821,7 +830,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
     position: relative;
     padding:25px 45px;
     padding-bottom: 50px;
-    border-radius: 12px;
+    
 }
 .f-box-text-alt{
     color: #383E42;
@@ -834,7 +843,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
 }
 .f-box-btn a{
     padding: 12px 25px;
-    border-radius: 12px;
+    
     color: #fff;
     font-size: 14px;
     font-weight: 600;
@@ -879,7 +888,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
     width: 3px;
     margin: 0 auto;
     padding-top: 50px;
-    border-radius: 50px;
+    
     background: #5f7cb6;
 }
 
@@ -891,7 +900,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
     transform: translateX(-50%);
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    
     background: inherit;
     z-index: 1;
 }
@@ -904,7 +913,7 @@ background: linear-gradient(to top, #58b6db, #1b4eda) !important;
     color: #000;
     background: linear-gradient(10deg, #fff 65%, #fff 65%);
     border: 1px solid #5f7cb6;
-    border-radius: 11px;
+    
     box-shadow: 0 0 15px #00000020;
 }
 
@@ -996,7 +1005,7 @@ time {
 .timeline-clippy ul li::after {
     width: 40px;
     height: 40px;
-    border-radius: 0;
+    
 }
 
 .timeline-rhombus ul li::after {
@@ -1037,7 +1046,7 @@ time i {
     padding: 12px;
     width: 50px;
     text-align: center;
-    border-radius: 50% 50% 0 0;
+    
     background: #5f7cb6;
     font-size: 24px;
     color: #fff;
@@ -1108,13 +1117,13 @@ table {
     border-collapse: collapse;
     width: 100%;
     box-shadow: 0 0 15px #00000020;
-    border-radius: 11px;
+    
 
 }
 
 th {
     color: #fff;
-    background: #3485A0;
+    background: #6493db;
 }
 
 td,
@@ -1134,7 +1143,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 999;
-    background: #000 !important;
+    background: #213655 !important;
     color: #fff;
     box-shadow: 0 0 15px #00000050;
 
@@ -1144,12 +1153,25 @@ nav {
     color: #ff9900 !important;
 }
 .banner {
-    background: url(img/banner.png);
+    position: relative;
+    background: url(img/carpet-cleaning.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left;
     height: 600px;
+    padding:0 10px;
+    z-index: 1;
 }
-
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000099;
+    z-index: -1;
+}
 .banner-settings {
     display: flex !important;
     align-items: center !important;
@@ -1178,7 +1200,7 @@ nav {
     border: 2px solid #ffffff69;
     transition: .3s ease all;
     padding: 10px 20px;
-    border-radius: 11px;
+    
     font-size: 16px;
     text-decoration: none;
 }
@@ -1213,7 +1235,7 @@ nav {
 
 .loc-dot {
     font-size: 24px;
-    color: #3790ad;
+    color: #6493db;
 }
 
 .flex-top-nbav {
@@ -1256,7 +1278,7 @@ nav {
     width: 250px;
     background: #ffffff;
     box-shadow: 0 0 15px #00000020;
-    border-radius: 15px;
+    
     transform: scale(0) translate(-50%);
     transition: .3s ease all;
     transform-origin: left top;
@@ -1320,7 +1342,7 @@ i {
 .img-s img {
     width: 100%;
     box-shadow: 0 0 15px #00000040;
-    border-radius: 5px;
+    
 }
 
 .content-r-box {
@@ -1396,7 +1418,7 @@ i {
     left: 10%;
     bottom: 0px;
 
-    border-radius: 50%;
+    
     box-shadow: 0 0 10px #fff;
     background: #000;
     transition: .8s cubic-bezier(0.18, 0.89, 0.34, 1.10) all;
@@ -1538,7 +1560,7 @@ i {
     background: #5a518650;
     color: #fff;
     border: 2px dotted #5a5186;
-    border-radius: 70px;
+    
     font-size: 16px;
     cursor: pointer;
     z-index: 1;
@@ -1692,14 +1714,14 @@ i {
     width: 100px;
 
     margin: 0 20px;
-    border-radius: 50%;
+    
 
 }
 
 .profile-img img {
 
     width: 100px;
-    border-radius: 50%;
+    
 }
 
 .type-bar,
@@ -1802,7 +1824,7 @@ section {
     font-size: 18px;
     overflow: hidden;
     box-shadow: 0 0 15px #00000030;
-    border-radius: 15px;
+    
 }
 
 
@@ -1815,7 +1837,7 @@ section {
     background-color: #fff !important;
     box-shadow: 0 0 15px #ffffff90;
     width: 15px !important;
-    border-radius: 5px !important;
+
 }
 
 
@@ -1830,7 +1852,7 @@ section {
     width: 500px;
     height: 500px;
     padding: 20px 0;
-    border-radius: 5px;
+    
 
 }
 
@@ -1858,7 +1880,7 @@ section {
     background: #ffffff;
     padding: 20px;
     width: 100%;
-    border-radius: 5px;
+    
     color: #000;
     font-weight: 600;
     font-size: 22px;
@@ -1874,7 +1896,7 @@ section {
     background: #fff;
     color: #353535;
     width: auto;
-    border-radius: 13px;
+    
     margin-bottom: 40px;
     font-size: 22px;
     font-weight: 600;
@@ -1884,7 +1906,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 5px;
+    
 
 
 }
@@ -1904,7 +1926,7 @@ section {
     flex-wrap: wrap;
     gap: 30px;
     width: 100%;
-    border-radius: 5px;
+    
     font-size: 32px;
 
 }
@@ -1921,7 +1943,7 @@ section {
     text-decoration: none;
     padding: 15px 25px;
     color: #fff;
-    border-radius: 5px;
+    
     background: #000;
     border: 2px solid transparent;
     width: 250px;
@@ -1950,7 +1972,7 @@ section {
     margin: 30px;
     gap: 30px;
     width: 100%;
-    border-radius: 5px;
+    
     font-size: 32px;
 }
 
@@ -1963,7 +1985,7 @@ section {
     line-height: 50px;
     color: #fff;
     background: #fff;
-    border-radius: 5px;
+    
     transition: .3s ease all;
     overflow: hidden;
 }
@@ -2034,7 +2056,7 @@ footer {
     margin: 15px;
     background-size: 300% 300%;
     backdrop-filter: blur(1rem);
-    border-radius: 5rem;
+    
     transition: 0.5s;
     animation: gradient_301 5s ease infinite;
     border: double 4px transparent;
@@ -2051,7 +2073,7 @@ footer {
     overflow: hidden;
     transition: 0.5s;
     backdrop-filter: blur(1rem);
-    border-radius: 5rem;
+    
 }
 
 .product-container iframe {
@@ -2063,7 +2085,7 @@ footer {
 .product-container img {
     width: 100%;
     margin: 15px 0;
-    border-radius: 5px;
+    
     box-shadow: 0 0 15px #00000020;
 }
 
@@ -2096,7 +2118,7 @@ footer {
     height: 20px;
     background-color: #fff;
     box-shadow: 0 0 15px #00000020;
-    border-radius: 10px;
+    
     overflow: hidden;
 }
 
@@ -2278,7 +2300,7 @@ form {
     font-size: 32px;
     background: #C14B3610;
     padding: 10px;
-    border-radius: 5px;
+    
     margin-top: 50px;
 }
 
@@ -2296,7 +2318,7 @@ figure {
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    border-radius: 6px;
+    
     background-color: #ffffff;
     padding: 5px;
     margin: 3px;
@@ -2318,14 +2340,14 @@ div.imgWrap {
     -o-object-fit: cover;
     object-fit: cover;
     transition: all 300ms ease-out;
-    border-radius: 5px;
+    
 }
 
 .m-text {
     padding: 10px;
     background: #C14B3610;
     border: 2px solid #ccc;
-    border-radius: 5px;
+    
 }
 
 .m-text span {
@@ -2394,7 +2416,7 @@ figcaption {
     width: 100%;
     height: 200px;
     margin: 50px 0;
-    border-radius: 5px;
+    
 
 
 }
@@ -2415,7 +2437,7 @@ figcaption {
     margin: 10px 0;
     padding: 10px;
     color: #ffffff;
-    border-radius: 5px;
+    
 }
 
 .comm-header {
@@ -2427,7 +2449,7 @@ figcaption {
     width: 100px;
     margin: 10px 0;
     padding: 10px;
-    border-radius: 5px;
+    
 }
 
 .comment-section-container {
@@ -2456,13 +2478,13 @@ figcaption {
     text-align: center;
     margin: 10px;
     color: #ffffff;
-    border-radius: 5px;
+    
 }
 
 .coverflow {
     position: relative;
     background: #353853;
-    border-radius: 5px;
+    
     box-shadow: 15px 15px 0 #222335;
 }
 
@@ -2540,7 +2562,7 @@ section .container {
         border-left: none;
         border-right: none;
         box-shadow: 0 0 0;
-        border-radius: 0;
+        
     }
 
 
@@ -2606,7 +2628,7 @@ section .container {
     }
 
     .nav-menu-header img {
-        border-radius: 0;
+        
         width: 200px !important;
     }
 
@@ -2840,7 +2862,7 @@ section .container {
     margin: 12px 0;
     background: linear-gradient(to right, #006EDF10, transparent);
     border-left: 5px solid #006EDF50;
-    border-radius: 5px;
+    
 }
 
 @media only screen and (max-width: 300px) {
@@ -2887,7 +2909,7 @@ section .container {
 
 .question-container{
     box-shadow: 0 0 15px #00000040;
-    border-radius: 15px;
+    
     overflow: hidden;
     
 }
@@ -2934,7 +2956,7 @@ section .container {
     text-align: center;
     line-height: 300px;
     color: #999;
-    border-radius: 15px;
+    
     overflow: hidden;
     box-shadow: 0 0 15px #00000020;
     font-size: 18px;
@@ -2953,5 +2975,5 @@ section .container {
 .banner-text span{
     padding: 10px;
     background: #34369299;
-    border-radius: 5px;
+    
 }

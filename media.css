@@ -325,6 +325,9 @@
     .timeline ul li div {
         width: 250px;
     }
+    .home-title{
+        font-size: 18px;
+    }
 
     .timeline ul li:nth-child(even) div {
         left: -289px;
@@ -413,7 +416,7 @@ nav {
 
 .loc-dot {
     font-size: 24px;
-    color: #3790ad;
+    color: #6493db;
 }
 
 .flex-top-nbav {
